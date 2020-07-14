@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<link href="../style.css" rel="stylesheet" type="text/css">
+
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../../favicon.ico">
+<title>FASTBuild - Function Reference - Executable</title>
+</head>
+<body>
+	<div class='outer'>
+        <div>
+            <div class='logobanner'>
+                <a href='../home.html'><img src='../img/logo.png' style='position:relative;'/></a>
+	            <div class='contact'><a href='../contact.html' class='othernav'>Contact</a> &nbsp; | &nbsp; <a href='../license.html' class='othernav'>License</a></div>
+	        </div>
+	    </div>
+	    <div id='main'>
+	        <div class='navbar'>
+	            <a href='../home.html' class='lnavbutton'>Home</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../features.html' class='navbutton'>Features</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../documentation.html' class='navbutton'>Documentation</a><div class='navbuttongap'></div>
+	            <a href='../download.html' class='rnavbutton'><b>Download</b></a>
+	        </div>
+	        <div class='inner'>
+
+<h1>Executable</h1>
+    <div id='executable' class='newsitemheader'>
+      Executable
+    </div>
+    <div class='newsitembody'>
+      <p>
+Builds an executable by linking together one or more libraries.
+      </p>
+<div class='code'>Executable( alias )        ; (optional) Alias
+{
+  .Linker                  ; Linker executable to use
+  .LinkerOutput            ; Output from linker
+  .LinkerOptions           ; Options to pass to linker
+  .Libraries               ; Libraries to link into executable
+  .LinkerLinkObjects       ; (optional) Link objects used to make libs instead of libs (default false)
+  .LinkerAssemblyResources ; (optional) List of assembly resources to use with %3
+  
+  .LinkerStampExe          ; (optional) Executable to run post-link to "stamp" executable in-place
+  .LinkerStampExeArgs      ; (optional) Arguments to pass to LinkerStampExe 
+  .LinkerType              ; (optional) Specify the linker type. Valid options include: 
+                           ; auto, msvc, gcc, snc-ps3, clang-orbis, greenhills-exlr, codewarrior-ld
+                           ; Default is 'auto' (use the linker executable name to detect)
+
+  ; Additional options
+  .PreBuildDependencies    ; (optional) Force targets to be built before this Executable (Rarely needed,
+                           ; but useful when Executable relies on externally generated files).                           
+
+  .Environment             ; (optional) Environment variables to use for local build
+                           ; If set, linker uses this environment
+                           ; If not set, linker uses .Environment from your Settings node
+}
+</div>
+<p><b>Build-Time Substitutions</b>
+<ul>
+  <li><b>LinkerOptions</b></li>
+  <ul>
+    <li>%1 - Input file(s) for the link, as specified by the 'Libraries' parameter.</li>
+    <li>%2 - Output assembly as specified by 'LinkerOutput'.</li>
+    <li>%3 - AssemblyResources as specified in 'LinkerAssemblyResources'. For use with /ASSEMBLYRESOURCE"%3" (MSVC Only)</li>
+  </ul>
+</ul>
+</p>
+    </div>
+
+
+
+    </div><div class='footer'>&copy; 2012-2020 Franta Fulin</div></div></div>
+</body>
+</html>

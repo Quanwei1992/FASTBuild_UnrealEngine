@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<link href="../style.css" rel="stylesheet" type="text/css">
+
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../../favicon.ico">
+<title>FASTBuild - Function Reference - Alias</title>
+</head>
+<body>
+	<div class='outer'>
+        <div>
+            <div class='logobanner'>
+                <a href='../home.html'><img src='../img/logo.png' style='position:relative;'/></a>
+	            <div class='contact'><a href='../contact.html' class='othernav'>Contact</a> &nbsp; | &nbsp; <a href='../license.html' class='othernav'>License</a></div>
+	        </div>
+	    </div>
+	    <div id='main'>
+	        <div class='navbar'>
+	            <a href='../home.html' class='lnavbutton'>Home</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../features.html' class='navbutton'>Features</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../documentation.html' class='navbutton'>Documentation</a><div class='navbuttongap'></div>
+	            <a href='../download.html' class='rnavbutton'><b>Download</b></a>
+	        </div>
+	        <div class='inner'>
+
+<h1>Alias</h1>
+    <div id='alias' class='newsitemheader'>
+      Summary
+    </div>
+    <div class='newsitembody'>
+      <p>
+Creates an alias for one or more targets.
+      </p>
+<div class='code'>Alias( 'name' ) // Name of alias (required)
+{
+  // Basic options
+  .Targets            // Targets to alias
+  .Hidden             // (optional) Hide a target from -showtargets (default false)
+}
+</div>
+    </div>
+
+    <div id='alias' class='newsitemheader'>
+      Details
+    </div>
+    <div class='newsitembody'>
+      <p>Alias() can be used to create aliases to other nodes in the build.  Aliases can be referenced within other Functions in the
+	  BFF config or from the command line.  An Alias can refer to one or more nodes, and are typically used to simplify and de-duplicate
+	  configurations.
+	  </p>
+	  <p>For example, to group multiple build congfigurations under a common 'main' target:</p>
+<div class='code'>Alias( 'main' )
+{
+  .Targets = { 'main-x86', 'main-x64' }
+}</div> 
+	  <p>Or to provide a more human-friendly command line target:</p>
+<div class='code'>Alias( 'Editor' )
+{
+  .Targets = 'bin/Editor/X64/Release/Editor.exe'
+}</div> 
+	  <p>Aliases can be nested (i.e. they can refer to other Aliases).</p>
+    </div>
+	
+    <div id='copy' class='newsitemheader'>
+      Basic Options
+    </div>	
+    <div class='newsitembody'>
+      <p>
+	  <b>.Targets</b> - String/ArrayOfStrings - (Required)
+	  </p>
+	  <p>	  
+	  One or more targets must be provided, either as a string or an array of strings. Targets can be previously
+	  defined nodes, or files external to the build process.
+	  </p>
+	  Example:
+<div class='code'>.Targets = { 'Library-Alias'                         // A previously defined Alias()
+             'tmp/Libraries/X64/Release/Core.dll'    // A previously defined DLL()
+             'External/SDK/VS2012/libs/libcmt.lib' } // An external DLL import library
+</div>
+
+    </div><div class='footer'>&copy; 2012-2020 Franta Fulin</div></div></div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<link href="../style.css" rel="stylesheet" type="text/css">
+
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../../favicon.ico">
+<title>FASTBuild - HOWTO - Caching</title>
+</head>
+<body>
+	<div class='outer'>
+        <div>
+            <div class='logobanner'>
+                <a href='../home.html'><img src='../img/logo.png' style='position:relative;'/></a>
+	            <div class='contact'><a href='../contact.html' class='othernav'>Contact</a> &nbsp; | &nbsp; <a href='../license.html' class='othernav'>License</a></div>
+	        </div>
+	    </div>
+	    <div id='main'>
+	        <div class='navbar'>
+	            <a href='../home.html' class='lnavbutton'>Home</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../features.html' class='navbutton'>Features</a><div class='navbuttonbreak'><div class='navbuttonbreakinner'></div></div>
+	            <a href='../documentation.html' class='navbutton'>Documentation</a><div class='navbuttongap'></div>
+	            <a href='../download.html' class='rnavbutton'><b>Download</b></a>
+	        </div>
+	        <div class='inner'>
+
+<h1>Caching</h1>
+    <div id='alias' class='newsitemheader'>
+      Overview
+    </div>
+    <div class='newsitembody'>
+      <p>
+The caching feature of FASTBuild allows compilation results from one build to be shared with another.  If the inputs are the same, the compilation can be replaced with a simple file copy.
+      </p>
+	  <p>
+	  Caching requires:
+	  <ul>
+	    <li>Compatible compilation settings</li>
+		<li>Configuration of cache location</li>
+		<li>Activation of caching</li>
+	  </ul>
+	  </p>
+	  <p>
+	  There are some performance implications of the cache that should be considered for optimal benefit.
+	  <ul>
+	    <li>Performance - GCC/SNC/Clang</li>
+		<li>Performance - MSVC</li>
+	  </ul>	  
+	  </p>
+</div>
+
+    <div id='alias' class='newsitemheader'>Compilation Settings</div>
+    <div class='newsitembody'>
+<p>Some compilation settings are incompatible with caching. If any object cannot be safely cached, it will automatically be built without caching. A build can safely mix cacheable and uncacheable objects.</p>
+<p>
+<b>GCC/SNC/Clang</b>
+<ul>
+  <li>No restrictions.</li>
+</ul>
+<b>MSVC</b>
+<ul>
+  <li>Z7 Debug format must be used. (Debug information embedded within obj, written to pdb at link time.)</li>
+  <li>/clr (Managed C) cannot be used.</li>
+</ul>
+</p>
+</div>
+
+    <div id='alias' class='newsitemheader'>Cache Location</div>
+    <div class='newsitembody'>
+<p>The cache location can be a local or network path, specified either by:
+<ul>
+  <li>The .CachePath property of the <a href='../functions/settings.html'>Settings</a> function</li>
+  <li>The FASTBUILD_CACHE_PATH Environment Variable</li>
+</ul>
+The Settings option overrides the Environment Variable.</p>
+<p>On Windows UNC format paths are also supported.</p>
+</div>
+
+    <div id='alias' class='newsitemheader'>Activation</div>
+    <div class='newsitembody'>
+<p>
+The cache can be activated by the use of:
+<ul>
+  <li>The -cache[read|write] command line argument</li>
+  <li>The FASTBUILD_CACHE_MODE Environment Variable ('r', 'w' or 'rw')</li>
+</ul>
+</p>
+<p>Be sure to read the Performance Implications section for use of the best options.</p>
+</div>
+
+    <div id='alias' class='newsitemheader'>Performance Implications</div>
+    <div class='newsitembody'>
+<p><b>GCC/SNC/Clang</b><br>
+There are no adverse impacts on performance using the cache.  The overhead is so low, it can be considered to be free in all situations.
+</p>
+<p><b>MSVC</b><br>
+Using the cache adds some additional overhead which in some cases (such as zero cache hits) can make compile times slightly slower overall. 
+The overhead is generally quite minimal, and as little as a single cache hit can be enough to offset this cost. 
+</p>
+</div>
+
+
+    </div><div class='footer'>&copy; 2012-2020 Franta Fulin</div></div></div>
+</body>
+</html>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68C3C08E-6F8D-320D-8D9A-EAE5BA58B35E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Repos\fbuild\Code\Core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Repos\fbuild\Code\Core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Repos\fbuild\Code\Core\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Repos\fbuild\Code\Core\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repos\fbuild\Code\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Repos/fbuild/Code/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Repos/fbuild -BE:/Repos/fbuild --check-stamp-file E:/Repos/fbuild/Code/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Repos\fbuild\Code\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Repos/fbuild/Code/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Repos/fbuild -BE:/Repos/fbuild --check-stamp-file E:/Repos/fbuild/Code/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Repos\fbuild\Code\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Repos/fbuild/Code/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Repos/fbuild -BE:/Repos/fbuild --check-stamp-file E:/Repos/fbuild/Code/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Repos\fbuild\Code\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Repos/fbuild/Code/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Repos/fbuild -BE:/Repos/fbuild --check-stamp-file E:/Repos/fbuild/Code/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Repos\fbuild\Code\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Array.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\AutoPtr.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Forward.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Move.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Singleton.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Sort.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\TestMain.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestAString.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestArray.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestAtomic.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestEnv.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestFileIO.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestFileStream.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestHash.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestLevenshteinDistance.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestMemPoolBlock.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestMutex.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestPathUtils.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestReflection.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSemaphore.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSharedMemory.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSmallBlockAllocator.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSystemMutex.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestTCPConnectionPool.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestTimer.cpp" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\Assert.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Assert.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\Env.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Env.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\ErrorFormat.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\ErrorFormat.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\MSVCStaticAnalysis.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Types.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\WindowsHeader.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\glibc_compat.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\ConstMemoryStream.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\ConstMemoryStream.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\FileIO.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\FileIO.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\FileStream.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\FileStream.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\IOStream.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\IOStream.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\MemoryStream.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\MemoryStream.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\PathUtils.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\PathUtils.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Math\CRC32.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\CRC32.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Constants.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Conversions.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Math\Random.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Random.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Trig.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\xxHash.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\Mem.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\Mem.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemDebug.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemDebug.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemPoolBlock.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemPoolBlock.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemTracker.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemTracker.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\SmallBlockAllocator.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\SmallBlockAllocator.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\Network.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\Network.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\NetworkStartupHelper.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\NetworkStartupHelper.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\TCPConnectionPool.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\TCPConnectionPool.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Atomic.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Mutex.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Mutex.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Process.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Process.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Semaphore.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Semaphore.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\SharedMemory.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\SharedMemory.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\SystemMutex.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\SystemMutex.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Thread.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Thread.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Profile\Profile.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Profile\ProfileManager.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Profile\ProfileManager.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\Object.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\Object.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\PropertyType.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectedProperty.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectedProperty.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionInfo.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionInfo.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionIter.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionIter.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionMacros.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionSettings.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\Struct.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\Struct.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaData.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaData.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaDataInterface.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_File.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_File.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Hidden.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Hidden.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Optional.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Optional.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Path.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Path.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Range.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Range.h" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\AStackString.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Strings\AString.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\AString.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Strings\LevenshteinDistance.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\LevenshteinDistance.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Time\Time.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Time\Time.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Time\Timer.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Time\Timer.h" />
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Tracing\Tracing.cpp" />
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Tracing\Tracing.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Repos\fbuild\ZERO_CHECK.vcxproj">
+      <Project>{E5311629-4094-3C51-B963-79816E034B97}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

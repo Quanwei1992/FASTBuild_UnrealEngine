@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\TestMain.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestAString.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestArray.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestAtomic.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestEnv.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestFileIO.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestFileStream.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestHash.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestLevenshteinDistance.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestMemPoolBlock.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestMutex.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestPathUtils.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestReflection.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSemaphore.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSharedMemory.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSmallBlockAllocator.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestSystemMutex.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestTCPConnectionPool.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests\TestTimer.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\CoreTest\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\Assert.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\Env.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Env\ErrorFormat.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\ConstMemoryStream.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\FileIO.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\FileStream.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\IOStream.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\MemoryStream.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\FileIO\PathUtils.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Math\CRC32.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Math\Random.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\Mem.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemDebug.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemPoolBlock.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\MemTracker.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Mem\SmallBlockAllocator.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\Network.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\NetworkStartupHelper.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Network\TCPConnectionPool.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Mutex.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Process.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Semaphore.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\SharedMemory.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\SystemMutex.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Process\Thread.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Profile\ProfileManager.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\Object.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectedProperty.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionInfo.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionIter.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\Struct.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaData.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_File.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Hidden.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Optional.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Path.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Range.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Strings\AString.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Strings\LevenshteinDistance.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Time\Time.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Time\Timer.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repos\fbuild\Code\Core\Tracing\Tracing.cpp">
+      <Filter>E:\Repos\fbuild\Code\Core\Tracing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Array.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\AutoPtr.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Forward.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Move.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Singleton.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Containers\Sort.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Assert.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Env.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\ErrorFormat.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\MSVCStaticAnalysis.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\Types.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\WindowsHeader.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Env\glibc_compat.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Env</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\ConstMemoryStream.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\FileIO.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\FileStream.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\IOStream.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\MemoryStream.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\FileIO\PathUtils.h">
+      <Filter>E:\Repos\fbuild\Code\Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\CRC32.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Constants.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Conversions.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Random.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\Trig.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Math\xxHash.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\Mem.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemDebug.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemPoolBlock.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\MemTracker.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Mem\SmallBlockAllocator.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\Network.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\NetworkStartupHelper.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Network\TCPConnectionPool.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Atomic.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Mutex.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Process.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Semaphore.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\SharedMemory.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\SystemMutex.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Process\Thread.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Profile\Profile.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Profile\ProfileManager.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\Object.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\PropertyType.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectedProperty.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionInfo.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionIter.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionMacros.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\ReflectionSettings.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\Struct.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaData.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\MetaDataInterface.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_File.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Hidden.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Optional.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Path.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData\Meta_Range.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\AStackString.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\AString.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Strings\LevenshteinDistance.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Time\Time.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Time\Timer.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repos\fbuild\Code\Core\Tracing\Tracing.h">
+      <Filter>E:\Repos\fbuild\Code\Core\Tracing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repos\fbuild\Code\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="E:">
+      <UniqueIdentifier>{562D3442-8531-318C-A12B-F15E035282B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos">
+      <UniqueIdentifier>{29AB1C12-C85C-321D-AE57-3CC7CF220361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild">
+      <UniqueIdentifier>{6207573D-E140-35E8-8899-6A9F0250A6D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code">
+      <UniqueIdentifier>{4ACCD54C-7F4F-3D38-9D1A-B43F134110CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core">
+      <UniqueIdentifier>{77BF4981-72D6-3A76-93DE-20E695D1EEFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Containers">
+      <UniqueIdentifier>{3D3224C0-0AE1-3D81-AE5D-20393F15A15D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\CoreTest">
+      <UniqueIdentifier>{82134F99-16D9-30A8-A03C-7C6F7FADA6A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\CoreTest\Tests">
+      <UniqueIdentifier>{BF6F5B45-E4DF-3F9F-9066-3EC51EAC6280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Env">
+      <UniqueIdentifier>{177D4EE8-3EFE-39D6-B55E-380D45EAC300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\FileIO">
+      <UniqueIdentifier>{FEBD5EA1-D73E-33C5-A5A1-2E5BDBDAD5B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Math">
+      <UniqueIdentifier>{4FD5DAD4-D176-3A51-8435-914935D02BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Mem">
+      <UniqueIdentifier>{BE874B4C-FA56-3EB8-867E-92F314396FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Network">
+      <UniqueIdentifier>{747703EE-B638-319B-A5A1-E474B4F99D20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Process">
+      <UniqueIdentifier>{107CC687-7A2C-3DE3-A47B-DA290CACD9B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Profile">
+      <UniqueIdentifier>{ABFBE9A6-3902-3F1F-848D-03174C4D770B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Reflection">
+      <UniqueIdentifier>{B2647462-04A8-3FB1-BA81-D36C77114327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Reflection\MetaData">
+      <UniqueIdentifier>{19003794-9792-3690-A0BA-BADA55F9D91D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Strings">
+      <UniqueIdentifier>{7683DF67-1983-34A5-AF55-1DEE54E2EE22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Time">
+      <UniqueIdentifier>{D04A1297-8AE8-32F9-B374-A454D7C5AF99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repos\fbuild\Code\Core\Tracing">
+      <UniqueIdentifier>{C3995004-8D86-3E53-BAD4-46831E9D3FEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
